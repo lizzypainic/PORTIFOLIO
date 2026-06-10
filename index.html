@@ -1,28 +1,162 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agricultura e Meio Ambiente</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #F5F5DC; /* Bege */
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header{
+        background: linear-gradient(to right, #2E7D32, #66BB6A);
+        color: white;
+        text-align: center;
+        padding: 40px;
+    }
+
+    header h1{
+        font-size: 2.8em;
+    }
+
+    nav{
+        background-color: #5D4037; /* Marrom terra */
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    nav a:hover{
+        color: #FFD54F; /* Amarelo */
+    }
+
+    .banner{
+        background-image: url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854');
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    main{
+        padding: 30px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    section{
+        background-color: white;
+        margin-bottom: 25px;
+        padding: 25px;
+        border-left: 8px solid #4CAF50;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+        color: #2E7D32;
+        margin-bottom: 15px;
+    }
+
+    ul li{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        background-color: #2E7D32;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .destaque{
+        color: #F9A825;
+        font-weight: bold;
+    }
+</style>
+
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>
-            Eleve seu negócio digital a outro nível 
-            <strong>com um Front-end de qualidade!
-            </strong></h1>
-            <p>Olá! Sou Joana Santos, desenvolvedora 
-            Front-end com especialidade em React, HTML e
-            CSS. Ajudo pequenos negócios e designers a 
-            colocarem em prática boas ideias. Vamos 
-            conversar?</p>
-            <a href="https://instagram.com/rafaballerini">Instagram</a>
-            <a href="https://github.com/guilhermeonrails">GitHub</a>
-            <img src="imagem.png" alt="Foto da Joana Santos programando">
-    </main>
-    <footer></footer>
+
+<header>
+    <h1>🌱 Agricultura e Meio Ambiente 🌎</h1>
+    <p>Cultivando o presente e preservando o futuro.</p>
+</header>
+
+<nav>
+    <a href="#agricultura">Agricultura</a>
+    <a href="#ambiente">Meio Ambiente</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+</nav>
+
+<div class="banner">
+    Produção Sustentável para um Mundo Melhor
+</div>
+
+<main>
+
+<section id="agricultura">
+    <h2>🌾 Agricultura Sustentável</h2>
+    <p>
+        A agricultura sustentável busca aumentar a produtividade sem prejudicar
+        os recursos naturais. Ela utiliza técnicas que preservam o solo,
+        economizam água e reduzem impactos ambientais.
+    </p>
+</section>
+
+<section id="ambiente">
+    <h2>🌳 Meio Ambiente</h2>
+    <p>
+        O meio ambiente fornece os recursos essenciais para a vida.
+        A preservação das florestas, rios e da biodiversidade é fundamental
+        para garantir qualidade de vida às futuras gerações.
+    </p>
+</section>
+
+<section id="sustentabilidade">
+    <h2>♻️ Práticas Sustentáveis</h2>
+    <ul>
+        <li>Uso consciente da água.</li>
+        <li>Rotação de culturas.</li>
+        <li>Reciclagem de resíduos agrícolas.</li>
+        <li>Proteção das matas ciliares.</li>
+        <li>Redução do uso de produtos químicos.</li>
+    </ul>
+
+    <p class="destaque">
+        Agricultura e preservação ambiental caminham juntas para um futuro sustentável.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Agricultura e Meio Ambiente</p>
+</footer>
+
 </body>
 </html>
